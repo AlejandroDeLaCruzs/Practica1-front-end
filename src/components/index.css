@@ -51,9 +51,9 @@
   font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
-  pointer-events: none; /* para que el clic siga funcionando */
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); /* sombra para visibilidad */
-  width: 90%; /* opcional para no salirse de la imagen */
+  pointer-events: none; 
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); 
+  width: 90%; 
 }
 
 .solar-opposites-header {
@@ -76,9 +76,9 @@
 }
 
 .korvo-ad-flex-container img {
-  width: 150px; /* ajusta el tamaño a lo que quieras */
-  height: auto; /* mantiene la proporción */
-  margin: 5px; /* opcional, separa un poco las imágenes */
+  width: 150px; 
+  height: auto; 
+  margin: 5px; 
 }
 
 .arrow-1 {
