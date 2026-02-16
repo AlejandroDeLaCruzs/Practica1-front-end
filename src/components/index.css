@@ -1,0 +1,165 @@
+.button-flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  z-index: 15;
+  margin: 1rem 0 1rem 1rem;
+  flex-grow: 1;
+}
+
+.boton-overlay {
+  position: relative;
+  border: none;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+  display: inline-block;
+  max-height: 400px;
+  height: 100%;
+  width: 100%;
+}
+
+.boton-imagen {
+  display: initial;
+  min-height: 100%;
+  width: 100%;
+}
+
+.contenido-texto {
+  position: absolute;
+  inset: 0;
+
+  display: flex;
+  flex-direction: column; /* 👈 FLEX COLUMN */
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  color: white;
+  pointer-events: none;
+  padding: 20px;
+}
+
+.boton-texto {
+  position: absolute; /* texto sobre la imagen */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  pointer-events: none; /* para que el clic siga funcionando */
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); /* sombra para visibilidad */
+  width: 90%; /* opcional para no salirse de la imagen */
+}
+
+.solar-opposites-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 1.25rem 0 0.85rem;
+}
+
+.korvo-ad-flex-container {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: auto;
+  margin: 2rem 0 1rem;
+  justify-content: space-around;
+  align-items: flex-start;
+  background: hsla(0, 0%, 80.2%, 0.65);
+}
+
+.korvo-ad-flex-container img {
+  width: 150px; /* ajusta el tamaño a lo que quieras */
+  height: auto; /* mantiene la proporción */
+  margin: 5px; /* opcional, separa un poco las imágenes */
+}
+
+.arrow-1 {
+  transform: rotate(90deg) translateX(-55px);
+  height: auto;
+  margin: 0 auto;
+  padding: 0.25rem;
+}
+
+.car-flash-desktop {
+  display: initial;
+  width: 100%;
+  transform: scale(1.1);
+  z-index: 1;
+  position: relative;
+}
+
+.auction-listing-desktop {
+  position: relative;
+  padding: 0.25rem;
+  transform: scale(1.2) translateY(-15px);
+  display: initial;
+  width: 100%;
+  z-index: 2;
+}
+
+.lesson-text {
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  transform: translateY(-20px);
+  font-size: 1.75rem;
+  display: initial;
+}
+
+.lesson-number {
+  display: initial;
+  top: 30px;
+  font-size: 3.5rem;
+  position: absolute;
+  left: 25%;
+  color: #ff0;
+  text-align: center;
+  transform: rotate(-3deg);
+}
+
+.web-design-credits {
+  font-size: 1.25rem;
+  font-weight: bolder;
+  text-align: center;
+  margin: 0;
+}
+
+.socials-container {
+  display: flex;
+  justify-content: center;
+  min-width: calc(100% + 50px);
+  bottom: 1px;
+  position: absolute;
+  align-items: center;
+}
+
+.share-with-friends-2 {
+  transform: rotate(180deg);
+}
+
+.web-design-expert-container {
+  width: 26%;
+  padding-left: 1rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem auto;
+  color: #fff;
+  z-index: 15;
+}
+
+.fam-headshot {
+  width: 100%;
+  display: block;
+  max-width: 225px;
+}
