@@ -17,7 +17,7 @@ function App() {
 
           {/* Contenido principal */}
           <div className="content-flex-container">
-            {/* Rallitas / margen superior */}
+            {/* Rayitas / margen superior */}
             <div className="margin-bottom">
               <div className="rayitas"></div>
             </div>
@@ -31,32 +31,29 @@ function App() {
 
             {/* Pupa coin y emojis */}
             <div className="pupa-coin-container">
-              <div className="bad-gateway">
-                <img src="/images/bad-gateway.f924a563.png" alt="Bad Gateway" />
+              <div>
+                <img src="/images/bad-gateway.f924a563.png" alt="Bad Gateway" className="bad-gateway"/>
               </div>
               <div className="alert-emoji">
-                <img src="/images/emoji.22bec09e.png" alt="Emoji" />
+                <img src="/images/emoji.22bec09e.png" alt="Emoji" className="alert-emoji" />
               </div>
-              <div className="accepting-pupa-coin-desktop">
+              <div>
                 <img
                   src="/images/pupa-coin-desktop.c108aeaf.gif"
                   alt="Pupa Coin"
+                  className="accepting-pupa-coin-desktop"
                 />
               </div>
             </div>
           </div>
         </div>
-        <div className="fire-container"/>
+        <div className="fire-container" />
       </div>
     </div>
   );
 }
 
 export default App;
-
-
-
-
 
 /*import "./App.css";
 import { BordeLateralDech, BordeLateralIzq, BotonLesson } from "./components";
