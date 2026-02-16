@@ -19,7 +19,7 @@ function App() {
           <div className="content-flex-container">
             {/* Rallitas / margen superior */}
             <div className="margin-bottom">
-              <div className="rallitas"></div>
+              <div className="rayitas"></div>
             </div>
 
             {/* Flex interno con los componentes */}
